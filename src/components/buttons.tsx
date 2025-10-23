@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ArrowRight } from "lucide-react";
 export function Buttons(){
     return <div className="flex justify-center space-x-6 mt-8">
