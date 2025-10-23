@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { Code2, Link, Wallet } from "lucide-react";
 
@@ -33,7 +33,7 @@ export default function HowItWorks() {
         How It Works
       </motion.h2>
 
-      {/* Steps */}
+      
       <div className="flex flex-col md:flex-row justify-center items-center gap-10 w-full px-6">
         {steps.map((step) => (
             <motion.div 

@@ -5,25 +5,21 @@ export default function CTASection() {
   return (
     <section className="text-center overflow-hidden flex flex-col items-center justify-center gap-8 bg-gradient-to-b from-gray-950 to-gray-900 p-10 rounded-2xl mt-20 w-full px-10 mx-auto text-gray-100 ">
       
-      {/* Background Accent Circles */}
       <div className=""></div>
       <div className=""></div>
 
-      {/* Content */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
         className="relative z-10 flex flex-col items-center justify-center gap-6"
       >
-        {/* Icons Row */}
         <div className="flex items-center gap-6 text-blue-400 mb-4">
           <Cpu size={28} className="animate-bounce-slow" />
           <Coins size={28} className="animate-bounce-slow delay-150" />
           <Cpu size={28} className="animate-bounce-slow delay-300" />
         </div>
 
-        {/* Headline */}
         <h2 className="text-4xl md:text-5xl font-bold text-gray-300 text-center">
   Turn Code into Rewards with 
   <h2>
@@ -38,12 +34,10 @@ export default function CTASection() {
   </h2>
 </h2>
 
-        {/* Subtext */}
         <p className="text-gray-300 max-w-xl text-sm md:text-base">
           Turn your coding skills into on-chain rewards instantly. Solve real challenges, mint your proof, and earn tokens securely.
         </p>
 
-        {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 mt-4">
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(59,130,246,0.6)" }}
